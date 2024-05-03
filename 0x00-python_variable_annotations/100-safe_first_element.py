@@ -12,6 +12,7 @@
 
 from typing import List, Union, Any, Sequence
 
+
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """Function that takes a list lst as argument
     and returns its first element if it exists, otherwise None.

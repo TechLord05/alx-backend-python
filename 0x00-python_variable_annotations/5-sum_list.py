@@ -6,6 +6,7 @@ of floats as argument and returns their sum as a float.
 
 from typing import List
 
+
 def sum_list(input_list: List[float]) -> float:
     """Function that takes a list input_list of floats as argument
     and returns their sum as a float.
@@ -13,7 +14,7 @@ def sum_list(input_list: List[float]) -> float:
     sum = 0.0
 
     for value in input_list:
-        if isinstance(value, float): #if type(value) is float
+        if isinstance(value, float):
             sum += value
-    
+
     return sum

@@ -16,5 +16,5 @@ def sum_mixed_list(mxd_list: List[Union[int, float]]) -> float:
     for num in mxd_list:
         if isinstance(num, int) or isinstance(num, float):
             mxd_sum += num
-    
+
     return mxd_sum
